@@ -1,0 +1,35 @@
+body{
+    margin:0;
+}
+nav{
+    display:flex;
+    animation: hello;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    flex-direction: column;
+    height: 100%;
+    width:25%;
+    background-color: rgb(90, 161, 161);
+}
+@keyframes hello {
+    20%{background-color:rgb(90, 161, 161) ;}
+    20%{background-color:rgb(90, 161, 161) ;}
+    20%{background-color:rgb(44, 167, 95) ;}
+    20%{background-color:rgb(206, 97, 111) ;}
+    20%{background-color:rgb(196, 185, 41) ;}
+}
+a{
+    text-decoration: none;
+    font-size: 24px;
+    padding: 8px;
+    color:black;
+    text-shadow: 0px 0px 8px whitesmoke;
+}
+a:hover{
+    background-color: red;
+    color: white;
+}
+a.active{
+    background-color: red;
+    color: white;
+}
